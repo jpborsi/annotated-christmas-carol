@@ -1,0 +1,10 @@
+p, h3, blockquote {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+h1, h2, h4 {
+    padding-left: 25%;
+    padding-right: 25%;
+    text-align: center;
+}
