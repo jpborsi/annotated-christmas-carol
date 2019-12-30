@@ -8,3 +8,13 @@ h1, h2, h4 {
     padding-right: 25%;
     text-align: center;
 }
+
+h1 {
+    font-family: 'Amita';
+    font-size: 32pt;
+}
+
+.fancy {
+    font-family: 'Lovers Quarrel';
+    font-size: 28pt;
+}
