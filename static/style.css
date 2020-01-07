@@ -1,6 +1,20 @@
-#text {
+.page {
     margin: auto;
+    max-width: 800px;
+    overflow: hidden;
+    width: fit-content;
+
+}
+
+.text {
     max-width: 500px;
+    float: left;
+}
+
+.annotation {
+    max-width: 300px;
+    float: left;
+    display: none;
 }
 
 p, blockquote {
@@ -50,6 +64,10 @@ h1 {
 
 .definition:hover .definition-text {
     visibility: visible;
+}
+
+.definition-annotation {
+    background-color: lightgreen;
 }
 
 nav {
@@ -105,5 +123,6 @@ nav a:hover, .navbar-dropdown:hover, .navbar-dropdown {
 }
 
 footer {
+    clear: both;
     text-align: center;
 }
